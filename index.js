@@ -3175,19 +3175,19 @@ function GetServiceCatalogDetails(searchString,callback)
 
     var http = require("https");
     //var path = encodeURI('/indexes/sr-categorynew-index/docs?api-version=2017-11-11&search='+searchString);
-    var path = encodeURI('/indexes/sr-categorynewonlyitwithai8-index/docs?api-version=2017-11-11&search=' + searchString);
+    var path = encodeURI('/indexes/azuresearchsummitbotservice-index01/docs?api-version=2017-11-11&search=' + searchString);
     var catalogDetailsArr = [];
 
     console.log("path=====>",path);
 
     var options = {
         "method": "GET",
-        "hostname": "summitazuresearch.search.windows.net",
+        "hostname": "azuresearchsummitbotservice01.search.windows.net",
         "port": null,
         "path": path,      
         "headers": {
             "content-type": "application/json",
-            "api-key": "72095D15AF5672AEF2E9941F4F1D040B",
+            "api-key": "26F3A9597159B56667A4531A4AA16D5E",
             "cache-control": "no-cache"
         }
     };
