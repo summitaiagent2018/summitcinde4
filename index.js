@@ -2767,7 +2767,7 @@ function GetKBArticles(incidentFor, callback) {
                   UserName: 'admin@symphonysummit.com',
                   OrgID: '1',
                   ReturnType: 'JSON',
-                  Password: '9aFKAT@5',
+                  Password: 'Test@123',
                   AuthType: 'FORM',
                   ProxyID: 0,
                   TokenID: ''
@@ -2826,7 +2826,7 @@ function logIncident(userID,symptom, description, callback) {
                   TokenID: '',
                   OrgID: '1',
                   ReturnType: 'JSON',
-                  Password: '9aFKAT@5',
+                  Password: 'Test@123',
                   UserName: 'admin@symphonysummit.com',
                   ProxyID: 0
               },
@@ -3021,7 +3021,7 @@ function GetSelectedCatalogDetailsListCall(catalogID, callback) {
                 UserName: 'admin@symphonysummit.com',
                 OrgID: '1',
                 ReturnType: 'JSON',
-                Password: '9aFKAT@5',
+                Password: 'Test@123',
                 TokenID: '',
                 AuthType: 'FORM',
                 ProxyID: 0
@@ -3064,7 +3064,7 @@ function LogServiceRequestCall(userID,userName,categoryName, categoryID, catalog
                 UserName: 'admin@symphonysummit.com',
                 OrgID: '1',
                 ReturnType: 'JSON',
-                Password: '9aFKAT@5',
+                Password: 'Test@123',
                 TokenID: '',
                 AuthType: 'FORM',
                 ProxyID: 0
@@ -3237,7 +3237,7 @@ function GetIncidentDetails(userID,noOfTickets,callback)
                 UserName: 'admin@symphonysummit.com',
                 OrgID: '1',
                 ReturnType: 'JSON',
-                Password: '9aFKAT@5'
+                Password: 'Test@123'
             },
              InstanceCode: 'IT',
              IncidentParam: 
@@ -3301,7 +3301,7 @@ function GetSRDetails(userID,noOfTickets,callback)
         ServiceName: 'SR_GetCallerServiceRequest',
         objCommonParameters: 
          { _ProxyDetails: 
-            { Password: '9aFKAT@5',
+            { Password: 'Test@123',
                 UserName: 'admin@symphonysummit.com',
                 ProxyID: 0,
                 ReturnType: 'JSON',
@@ -3444,7 +3444,7 @@ function UpdateIncident(ticketNumber,userId,status,comment,callback)
              _ProxyDetails: 
               {   OrgID: '1',
                   ReturnType: 'JSON',
-                  Password: '9aFKAT@5',
+                  Password: 'Test@123',
                   UserName: 'admin@symphonysummit.com',
                   AuthType: 'FORM',
                   ProxyID: 0,
@@ -3563,7 +3563,7 @@ function GetSummitUserDetails(emailId,chatBotID,callback)
                                                     TokenID: '',
                                                     OrgID: '1',
                                                     ReturnType: 'JSON',
-                                                    Password: '9aFKAT@5',
+                                                    Password: 'Test@123',
                                                     UserName: 'admin@symphonysummit.com',
                                                     ProxyID: 0 
                                                   },
@@ -3621,7 +3621,7 @@ function CancelIncident(ticketNumber,userId,comment,callback)
             { TokenID: '',
                 OrgID: '1',
                 ReturnType: 'JSON',
-                Password: '9aFKAT@5',
+                Password: 'Test@123',
                 UserName: 'admin@symphonysummit.com',
                 ProxyID: 0 },
          incidentParamsJSON: 
@@ -3710,7 +3710,7 @@ function UpdateServiceRequest(ticketNumber,userId,comment,callback)
                              _ProxyDetails: { 
                                                     OrgID: '1',
                                                     ReturnType: 'JSON',
-                                                    Password: '9aFKAT@5',
+                                                    Password: 'Test@123',
                                                     UserName: 'admin@symphonysummit.com',
                                                     AuthType: 'FORM',
                                                     ProxyID: 0,
@@ -3777,7 +3777,7 @@ function GetSRCatalogDetails(userID, categoryID, isLeafNode, callback)
                     {
                         OrgID: '1',
                         ReturnType: 'JSON',
-                        Password: '9aFKAT@5',
+                        Password: 'Test@123',
                         UserName: 'admin@symphonysummit.com',
                         AuthType: 'FORM',
                         ProxyID: 0,
